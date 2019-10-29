@@ -1,4 +1,4 @@
-package com.hit.cggb.sequence;
+package com.hit.cggb.awesome.sequence;
 
 /**
  * @author Charies Gavin

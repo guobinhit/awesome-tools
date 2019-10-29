@@ -1,4 +1,4 @@
-package com.hit.cggb.datetime;
+package com.hit.cggb.awesome.datetime;
 
 import java.text.DateFormat;
 import java.text.ParseException;

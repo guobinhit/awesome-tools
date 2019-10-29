@@ -1,4 +1,4 @@
-package com.hit.cggb.monitor;
+package com.hit.cggb.awesome.monitor;
 
 /**
  * @author Charies Gavin

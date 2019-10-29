@@ -1,4 +1,4 @@
-package com.hit.cggb.pagehelper;
+package com.hit.cggb.awesome.pagehelper;
 
 /**
  * @author Charies Gavin
