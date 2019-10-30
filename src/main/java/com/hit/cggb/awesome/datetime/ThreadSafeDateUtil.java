@@ -7,11 +7,11 @@ import java.util.*;
 
 /**
  * @author Charies Gavin
- *         https:github.com/guobinhit
+ * @github https:github.com/guobinhit
  * @date 10/25/19,11:39 AM
  * @description thread safe date utils
  */
-public class ThreadSafeDateUtils {
+public class ThreadSafeDateUtil {
 
     // Time zone of china
     private static final String CHINA_TIME_ZONE = "GMT+8:00";
@@ -368,6 +368,7 @@ public class ThreadSafeDateUtils {
         }
 
         private String desc;
+
         private int value;
 
         public String getDesc() {

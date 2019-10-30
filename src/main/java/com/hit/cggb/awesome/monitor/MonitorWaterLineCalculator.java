@@ -2,7 +2,7 @@ package com.hit.cggb.awesome.monitor;
 
 /**
  * @author Charies Gavin
- *         https:github.com/guobinhit
+ * @github https:github.com/guobinhit
  * @date 10/25/19,6:18 PM
  * @description water line calculator
  */

@@ -2,7 +2,7 @@ package com.hit.cggb.awesome.sequence;
 
 /**
  * @author Charies Gavin
- *         https:github.com/guobinhit
+ * @github https:github.com/guobinhit
  * @date 10/24/19,3:30 PM
  * @description id worker of twitter
  */

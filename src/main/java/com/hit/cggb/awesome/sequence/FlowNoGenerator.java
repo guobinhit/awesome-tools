@@ -6,7 +6,7 @@ import java.util.Random;
 
 /**
  * @author Charies Gavin
- *         https:github.com/guobinhit
+ * @github https:github.com/guobinhit
  * @date 10/24/19,10:00 AM
  * @description flow number generator
  */

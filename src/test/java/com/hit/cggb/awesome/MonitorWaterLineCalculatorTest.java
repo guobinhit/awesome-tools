@@ -4,7 +4,7 @@ import com.hit.cggb.awesome.monitor.MonitorWaterLineCalculator;
 
 /**
  * @author Charies Gavin
- *         https:github.com/guobinhit
+ * https:github.com/guobinhit
  * @date 10/29/19,6:57 PM
  * @description water line calculator test class
  */
