@@ -1,6 +1,6 @@
 package com.hit.cggb.awesome;
 
-import com.hit.cggb.awesome.pagehelper.PageInfo;
+import com.hit.cggb.awesome.pageinfo.PageHelper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,11 +18,11 @@ public class PageInfoTest {
             testList.add(i + "");
         }
 
-        PageInfo<String> pageHepler = new PageInfo<String>(testList);
-        PageInfo<String> pageHepler2 = new PageInfo<String>(15, 10, testList);
-        PageInfo<String> pageHepler3 = new PageInfo<String>(3, 10, testList);
-        PageInfo<String> pageHepler4 = new PageInfo<String>(3, 40, testList);
-        PageInfo<String> pageHepler5 = new PageInfo<String>(10, 10, testList);
+        PageHelper<String> pageHepler = new PageHelper<String>(testList);
+        PageHelper<String> pageHepler2 = new PageHelper<String>(15, 10, testList);
+        PageHelper<String> pageHepler3 = new PageHelper<String>(3, 10, testList);
+        PageHelper<String> pageHepler4 = new PageHelper<String>(3, 40, testList);
+        PageHelper<String> pageHepler5 = new PageHelper<String>(10, 10, testList);
 
         System.out.println("test over.");
     }

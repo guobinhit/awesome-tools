@@ -1,4 +1,4 @@
-package com.hit.cggb.awesome.pagehelper;
+package com.hit.cggb.awesome.pageinfo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,7 @@ import java.util.List;
  * @date 10/24/19,6:45 PM
  * @description page info
  */
-public class PageInfo<T> {
+public class PageHelper<T> {
     // Current page
     private int pageNum;
     // Quantity per page
@@ -32,7 +32,7 @@ public class PageInfo<T> {
      *
      * @param list pending divide page list
      */
-    public PageInfo(List<T> list) {
+    public PageHelper(List<T> list) {
         // default pageNum is 1 & pageSize is 10
         this(1, 10, list);
     }
@@ -44,7 +44,7 @@ public class PageInfo<T> {
      * @param pageSize quantity per page
      * @param list     pending divide page list
      */
-    public PageInfo(int pageNum, int pageSize, List<T> list) {
+    public PageHelper(int pageNum, int pageSize, List<T> list) {
         this.pageNum = pageNum;
         this.pageSize = pageSize;
         this.list = list;
