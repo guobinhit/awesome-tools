@@ -18,7 +18,7 @@ public class MonitorWaterLineCalculatorTest {
             calculator.calculate(temp);
         }
 
-        System.out.println(calculator.getResult());
+        System.out.println("calculator.getResult() is " + calculator.getResult());
     }
 
     private static double randGen(int upper, int lower) {

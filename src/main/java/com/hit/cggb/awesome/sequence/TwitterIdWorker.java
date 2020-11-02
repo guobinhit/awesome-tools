@@ -92,9 +92,7 @@ public class TwitterIdWorker {
     }
 
     private long tilNextMillis(final long lastTimestamp) {
-
         long timestamp = this.timeGen();
-
         while (timestamp <= lastTimestamp) {
             timestamp = this.timeGen();
         }
